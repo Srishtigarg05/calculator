@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>form</h1>
+    <label>Name</label>
+    <input type="text">
+    <br><br>
+    <label>Phone No.</label>
+    <input type="Number" id="number">
+    <br><br>
+    <label>email</label>
+    <input type="email">
+    <br><br>
+    <label>Password</label>
+    <input type="password">
+    <br>
+    <button>Submit</button>
+    <script>
+        function number()
+        {
+            var v=getElementById(number).value;
+            if(v.length()<10||v.length()>10)
+        {
+            window.alert("Enter Valid Number");
+        }
+        }
+    </script>
+</body>
+</html>
